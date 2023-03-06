@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <form method="get">  
+            <div class="container">  
+            <center>  <h1> Course Registeration Form</h1> </center>  
+            <hr>  
+            <table align="center" cellpadding="5" cellspacing="10">
+                <tr>
+                    <td><label>
+                        <b> Name :</b>
+                    </label> </td>  
+                    <td> <input type="text" name="name" placeholder= "name" size="15" required />   </td>
+                </tr>
+                <tr>
+                    <td><label>  <b> 
+                        Course :  </b>
+                        </label>   </td>
+                    <td> 
+                        <select style=" border: 2px solid darkblue">  
+                        <option value="Course">Course</option>  
+                        <option value="Cloud computing">Cloud computing</option>  
+                        <option value="Big Data">Big Data</option>  
+                        <option value="Web Development">Web Development</option>  
+                        <option value="Computer Networks">Computer Networks</option>  
+                        <option value="Dbms">Database Management System</option>  
+                        <option value="os">Operating System</option>  
+                        </select>   
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>   <b>
+                        Gender :  </b>
+                        </label></td> 
+                    <td><input type="radio" value="Male" name="gender" checked > Male   
+                        <input type="radio" value="Female" name="gender"> Female   
+                        <input type="radio" value="Other" name="gender"> Other  
+
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>  <b> 
+                        Phone :  </b>
+                        </label>  </td>
+                    <td>  <input type="text" name="country code" placeholder="Country Code" 
+                        size="10" maxlength="10" required>   
+
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label><b>
+                        Current Address :  </b>
+                      </label> </td>
+                  <td>  <textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+                      </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="email"><b>Email:</b></label>  </td>
+
+                    <td> <input type="text" placeholder="Enter Email" name="email" required> 
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label for="psw"><b>Password:</b></label>  </td>
+                    <td><input type="password" placeholder="Enter Password" name="psw" required>  
+                    </td>
+                </tr>
+                <tr>
+                <td>    <a href="thanks.html"><input type="button" value="Register" class="register"></a></td>
+                        
+                </tr>
+            </table>
+
+      

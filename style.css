@@ -1,0 +1,44 @@
+
+body{  
+  font-family: Bahnschrift; 
+  font-size: 19px; 
+    display: block;
+    margin: 30px;
+  
+}  
+.container {  
+    padding: 50px;  
+  background-color: lightblue;  
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 30%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none; 
+  border: 2px solid darkblue;  
+  background: #f1f1f1;  
+}  
+
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.register {  
+  background-color: darkblue;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+  font-size: 19px;
+}  
+.register:hover {  
+  opacity: 1;  
+}  

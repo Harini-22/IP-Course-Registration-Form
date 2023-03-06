@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login</title>
+        <style>
+        .container {   
+        padding: 25px;   
+        background-color: lightblue;  
+        justify-content: center;
+       
+        }   
+        body {
+        display: block;
+        margin: 18px;
+       }
+        form {   
+        border: 3px solid #f1f1f1;   
+        text-align:center;
+        }   
+        #name,#pass,#email{
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;      
+        border: 2px solid darkblue;   
+        box-sizing: border-box;   
+        }
+        #login{
+            width:50%;
+            padding: 15px;   
+            margin: 10px 0px;   
+            border: 2px;  
+            background-color: darkblue;
+            color:#f1f1f1;
+            font-size: 20px;
+        }
+        
+        </style>
+    </head>
+
+<body style="font-family: Bahnschrift,font-size=35px" ><center>
+    <h1 >LOGIN FORM</h1>
+    <form>
+        <div class="container" align="center">
+        <table align="center" cellpadding="10" cellspacing="10">
+            <tr >
+                <td> <label style="font-size:20px"><b>Username</b></label></td>
+                <td> <input type="text" placeholder="Enter Username" id="name" name="username" required></td>
+            </tr>
+
+            <tr>
+                <td> <label style="font-size:20px"><b>Email</b></label></td>
+                <td>  <input type="email" placeholder="Enter Email" id="email" name="email" required></td>
+            </tr>
+
+            <tr>
+                <td> <label style="font-size:20px"><b>Password</b></label></td>
+                <td>  <input type="password" placeholder="Enter Password" id="pass" name="Password" required></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center"> <a href="registration.html"> <input type="button" name="Submit" id="login" value="Login" required></a></td>
+            </tr>
+           
+        </table>
+
+         </div></center>
+       
+    </form>
+</body>
+</html>
+
